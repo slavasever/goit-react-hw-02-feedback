@@ -39,7 +39,7 @@ class App extends Component {
           />
         </Section>
 
-        {this.countTotalFeedback() ? (
+        {total ? (
           <Section title="Statistics">
             <Statistics
               good={good}
